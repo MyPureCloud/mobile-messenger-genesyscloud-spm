@@ -17,14 +17,14 @@ let package = Package(
         .package(
             name: "GenesysCloudMessenger",
             url: "https://github.com/MyPureCloud/mobile-messenger-genesyscloudmessenger-spm.git",
-            .exact("2.4.0")
+            .exact("2.5.0")
         )
     ],
     targets: [
         .binaryTarget(
             name: "GenesysCloud",
-            url: "https://github.com/MyPureCloud/mobile-messenger-ios-sdk/releases/download/v2.4.0/GenesysCloud.zip",
-            checksum: "d9d2ded17c198f6f2076bd57bd979f4e6b79e5309676c7af0431f080f44586dd"
+            url: "https://github.com/MyPureCloud/mobile-messenger-ios-sdk/releases/download/v2.5.0/GenesysCloud.zip",
+            checksum: "113a43dcb26ff20a6e84ef3d8fb38223c729b854059443ac0bca7d0cd338c7ed"
         ),
         .target(
             name: "GenesysCloudWrapper",
